@@ -34,7 +34,6 @@
             background: var(--off-white);
         }
 
-        /* Header/Navigation */
         header {
             position: fixed;
             top: 0;
@@ -88,10 +87,9 @@
             color: var(--mustard);
         }
 
-        /* Hero Section - Mobile First Design */
         .hero {
             height: 100vh;
-            background-image: url('images/hero-bedroom-main.jpg');
+            background-image: url('images/Zdjęcie od Adam (6).jpg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -165,7 +163,6 @@
             box-shadow: 0 10px 30px rgba(232, 184, 77, 0.4);
         }
 
-        /* Section Styling */
         section {
             padding: 6rem 2rem;
             max-width: 1400px;
@@ -192,7 +189,6 @@
             margin: 0 auto;
         }
 
-        /* About Section */
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -219,7 +215,6 @@
             border-radius: 8px;
         }
 
-        /* Gallery Section */
         #galeria {
             background: var(--white);
         }
@@ -249,7 +244,6 @@
             transform: scale(1.05);
         }
 
-        /* Attractions Section */
         .attractions {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -288,7 +282,6 @@
             border-bottom: none;
         }
 
-        /* Amenities Section */
         .amenities-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -326,7 +319,6 @@
             color: var(--medium-gray);
         }
 
-        /* Contact/Booking Section */
         .contact-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -378,7 +370,6 @@
             background: #d4a73d;
         }
 
-        /* Location Section */
         .location-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -400,7 +391,6 @@
             border: none;
         }
 
-        /* Footer */
         footer {
             background: var(--charcoal);
             color: white;
@@ -437,7 +427,6 @@
             color: var(--mustard);
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             header {
                 padding: 1rem;
@@ -479,19 +468,16 @@
             }
         }
 
-        /* Smooth Scroll */
         html {
             scroll-behavior: smooth;
         }
 
-        /* Accent Colors for Sections */
         .accent-mustard { color: var(--mustard); }
         .accent-blue { color: var(--soft-blue); }
         .accent-mint { color: var(--mint); }
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <nav>
             <a href="#" class="logo-link">
@@ -507,7 +493,6 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <img src="images/logo-fika-neon.svg" alt="Fika" class="hero-logo">
@@ -520,7 +505,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="o-apartamencie">
         <div class="about-content">
             <div class="about-text">
@@ -529,11 +513,10 @@
                 <p>Apartament Fika w Hotelu Biała Perła łączy skandynawski minimalizm z duchem Sudetów. Tutaj odnajdziesz równowagę między aktywnością a spokojem, między górskimi przygodami a ciepłem domowego zacisza.</p>
                 <p>Zatrzymaj się. Odetchnij. Poczuj atmosferę gór i skandynawskiego designu.</p>
             </div>
-            <img src="images/window-mountain-view.jpg" alt="Apartament Fika - widok z okna" class="about-image">
+            <img src="images/Zdjęcie od Adam (3).jpg" alt="Apartament Fika - widok z okna" class="about-image">
         </div>
     </section>
 
-    <!-- Gallery Section -->
     <section id="galeria">
         <div class="section-header">
             <h2>Galeria</h2>
@@ -541,45 +524,44 @@
         </div>
         <div class="gallery-grid">
             <div class="gallery-item">
-                <img src="images/kitchenette-living.jpg" alt="Kitchenette z widokiem na salon">
+                <img src="images/Zdjęcie od Adam (5).jpg" alt="Kitchenette z widokiem na salon">
             </div>
             <div class="gallery-item">
-                <img src="images/fika-neon-map.jpg" alt="Neon Fika i mapa Czarnej Góry">
+                <img src="images/Zdjęcie od Adam.jpg" alt="Neon Fika i mapa Czarnej Góry">
             </div>
             <div class="gallery-item">
-                <img src="images/balcony-mountain-view.jpg" alt="Widok z balkonu na góry">
+                <img src="images/Zdjęcie od Adam (3).jpg" alt="Widok z balkonu na góry">
             </div>
             <div class="gallery-item">
-                <img src="images/kitchenette-side.jpg" alt="Kitchenette z widokiem na apartament">
+                <img src="images/Zdjęcie od Adam (5).jpg" alt="Panorama apartamentu">
             </div>
             <div class="gallery-item">
-                <img src="images/bedroom-fika-neon.jpg" alt="Łóżko z neonem Fika">
+                <img src="images/Zdjęcie od Adam (6).jpg" alt="Łóżko z neonem Fika">
             </div>
             <div class="gallery-item">
-                <img src="images/bedroom-overview.jpg" alt="Widok na sypialnie z kitchenette">
+                <img src="images/Zdjęcie od Adam (6).jpg" alt="Widok na sypialnie">
             </div>
             <div class="gallery-item">
-                <img src="images/ski-gear-detail.jpg" alt="Sprzęt narciarski w apartamencie">
+                <img src="images/Zdjęcie od Adam (13).jpg" alt="Sprzęt narciarski w sypialni">
             </div>
             <div class="gallery-item">
-                <img src="images/bedroom-relax.jpg" alt="Relaks z kawą i widokiem">
+                <img src="images/Zdjęcie od Adam (1).jpg" alt="Relaks w sypialni">
             </div>
             <div class="gallery-item">
-                <img src="images/balcony-panorama.jpg" alt="Panoramiczny widok z balkonu">
+                <img src="images/Zdjęcie od Adam (3).jpg" alt="Panoramiczny widok z balkonu">
             </div>
             <div class="gallery-item">
-                <img src="images/apartment-panorama.jpg" alt="Panorama apartamentu">
+                <img src="images/Zdjęcie od Adam (12).jpg" alt="Snowboard w apartamencie">
             </div>
             <div class="gallery-item">
-                <img src="images/snowboard-wall.jpg" alt="Snowboard w apartamencie">
+                <img src="images/Zdjęcie od Adam (4).jpg" alt="Mapa Czarnej Góry">
             </div>
             <div class="gallery-item">
-                <img src="images/bathroom.jpg" alt="Łazienka">
+                <img src="images/Zdjęcie od Adam (11).jpg" alt="Łazienka">
             </div>
         </div>
     </section>
 
-    <!-- Attractions Section -->
     <section id="atrakcje">
         <div class="section-header">
             <h2>Atrakcje okolicy</h2>
@@ -609,7 +591,6 @@
         </div>
     </section>
 
-    <!-- Amenities Section -->
     <section id="wyposazenie">
         <div class="section-header">
             <h2>Wyposażenie</h2>
@@ -659,7 +640,6 @@
         </div>
     </section>
 
-    <!-- Contact/Booking Section -->
     <section id="kontakt">
         <div class="section-header">
             <h2>Rezerwacja i kontakt</h2>
@@ -692,7 +672,6 @@
         </div>
     </section>
 
-    <!-- Location Section -->
     <section id="lokalizacja">
         <div class="section-header">
             <h2>Jak do nas trafić?</h2>
@@ -720,7 +699,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <img src="images/logo-fika-neon.svg" alt="Fika" class="footer-logo">
